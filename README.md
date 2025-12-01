@@ -175,3 +175,29 @@ Common record types in the export:
 - `HKQuantityTypeIdentifierBasalEnergyBurned` - Resting calories
 - `HKQuantityTypeIdentifierFlightsClimbed` - Floors climbed
 - `HKCategoryTypeIdentifierSleepAnalysis` - Sleep data
+
+
+## First Set of Questions to Answer:
+Try to answer these basic questions using the publicly available healthkit export you downloaded.
+
+1. What time of the day does the user do most workouts?
+
+2. Which day of the week does the user have most steps?
+
+3. Between daily Apple Exercise Time, HRV, Steps, Active Energy and Average Heart Rate, which variable pair has the highest correlation (linear)
+
+
+### Using Cursor to answer the questions:
+While you are free to do this manually, AI coding agents have become so powerful, you can literally just ask the question and with some back and forth get a first answer (maybe not the correct one though hahaha)
+
+#### Ask the question in Cursor
+
+`Question: Can you create a new notebook that analyzes which times of the day the user does their workouts most frequently?`
+
+Set the `mode` from Agent to Plan and select a strong model (e.g. Opus 4.5) 
+
+##### Set Plan Mode
+![Figure 1](f1.png)
+
+##### Set the Model
+![Figure 2](f2.png)
