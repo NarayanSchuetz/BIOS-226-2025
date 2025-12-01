@@ -201,3 +201,7 @@ Set the `mode` from Agent to Plan and select a strong model (e.g. Opus 4.5)
 
 ##### Set the Model
 ![Figure 2](f2.png)
+
+
+## More advanced: lets try to analyze causality
+In the notebook `var_analysis.ipynb` you will find a first exploratory analysis to apply a method for predictive causality. Start having a look and see whether we could do the same with other variables instead of the ones used.
